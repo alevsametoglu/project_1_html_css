@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustafa Murat Coskun Proglama Egitimi</title>
+    <meta name="keyword" content="python, Java, Java script " />
+    <meta name="description" content="Mustafa Murat Coskun Proglama Egitimi" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- Tablet  -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Alev Smaetoglu</h1>
+
+          <ul>
+            <li><a href="#home"> Accueil</a></li>
+            <li><a href="#training"> Projets</a></li>
+            <li><a href="#courses">Cours</a></li>
+            <li><a href="#contact"> Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img src="/images/download.jpeg" alt="Mustafa Murat Coskun" />
+
+      <div class="name">
+        <h2 class="text-center heading-big">Alev Sametoglu</h2>
+        <p class="text-center">Développeur Front-End</p>
+      </div>
+
+      <a href="#courses" class="btn btn-primary">Aller aux cours</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Projets</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Html5 Css3</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            recusandae?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Javascript</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            recusandae?
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>React</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
+            recusandae?
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h3 class="text-center heading-medium">Cours</h3>
+      <div class="container">
+        <div class="courses">
+          <div class="course">
+            <!-- course 1 -->
+            <div class="course-image">
+              <img src="../images/htmlcss.jpeg" alt="html" />
+            </div>
+            <div class="course-info">
+              <div class="title">
+                (40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)
+              </div>
+              <div class="description">
+                (40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)
+              </div>
+              <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+              <div class="rating">4.6 | (19990 Oylama)</div>
+            </div>
+          </div>
+
+          <div class="course">
+            <!-- course 2 -->
+            <div class="course-image">
+              <img src="../images/javascript.jpeg" alt="JavaScript" />
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Java Geliştirici Kursu</div>
+              <div class="description">
+                Komple Java Geliştirici Kursu | Sıfırdan Java Öğrenin
+              </div>
+              <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+              <div class="rating">4.6 | (19990 Oylama)</div>
+            </div>
+          </div>
+
+          <div class="course">
+            <!-- course 3 -->
+            <div class="course-image">
+              <img src="../images/react.png" alt="React" />
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Modern JavaScript Kursu</div>
+              <div class="description">Komple Modern JavaScript Kursu</div>
+              <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+              <div class="rating">4.6 | (19990 Oylama)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 style="margin-bottom: 20px" class="text-center heading-medium">
+            Contact
+          </h4>
+
+          <div class="form-group">
+            <!-- <label for="name">isim</label> -->
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="isim"
+            />
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="email">E-mail</label> -->
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="message">mesaj</label> -->
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="mesajiniz..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Gonder</button>
+        </form>
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
