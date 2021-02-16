@@ -46,6 +46,10 @@
   width: 100%;
   text-align: center;
 }
+.btn-block:hover {
+  background-color: rgb(108, 113, 121);
+  color: white;
+}
 /* forms */
 .form-group {
   padding: 0.25rem 0;

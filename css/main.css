@@ -82,7 +82,7 @@ text-align: center;
   padding: 1rem;
 }
 h3 {
-  padding: 10px;
+  padding: 8px;
 }
 #training .items {
   display: flex;
@@ -102,6 +102,9 @@ h3 {
 #training .items .item:hover {
   color: rgb(139, 142, 144);
   cursor: pointer;
+}
+i {
+  padding-right: 10px;
 }
 
 /* courses */
